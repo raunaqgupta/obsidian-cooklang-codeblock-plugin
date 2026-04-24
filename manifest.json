@@ -3,7 +3,7 @@
 	"name": "Cooklang Codeblock",
 	"version": "0.1.0",
 	"minAppVersion": "1.12.7",
-	"description": "Render recipes using cooklang formatted codeblocks.",
+	"description": "Add recipes written in cooklang to your notes.",
 	"author": "Raunaq Gupta",
 	"isDesktopOnly": false,
 	"fundingUrl": "https://buymeacoffee.com/raunaqgupta"
