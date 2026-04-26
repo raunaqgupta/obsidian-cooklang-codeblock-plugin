@@ -9,10 +9,10 @@ import { renderCooklangBlock } from "./renderer";
  * card inline with the note's rendered preview.
  */
 export default class CooklangRecipePlugin extends Plugin {
-	async onload(): Promise<void> {
+	onload(): void {
 		this.registerMarkdownCodeBlockProcessor(
 			"cooklang",
-			renderCooklangBlock
+			renderCooklangBlock,
 		);
 		this.registerMarkdownCodeBlockProcessor("cook", renderCooklangBlock);
 	}
